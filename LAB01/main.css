@@ -1,0 +1,215 @@
+/* =========================
+   CSS for COMP1054 Lab 1
+   ========================= */
+
+/* =========================
+   1. Style for the body element
+   ========================= */
+/* Selector: targets the <body> element */
+body {
+    /* Property: font-family - defines which font(s) to use */
+    /* Value: 'Roboto', sans-serif - primary Roboto font, fallback to sans-serif */
+    /* Declaration: font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
+    /* Property: background-color - sets the page background color */
+    /* Value: #f5f5f5 - light gray color */
+    /* Declaration: background-color: #f5f5f5; */
+    background-color: #f5f5f5;
+
+    /* Property: color - sets default text color */
+    /* Value: #333 - dark gray */
+    /* Declaration: color: #333; */
+    color: #333;
+
+    /* Property: margin - removes default margin */
+    /* Value: 0 - zero margin */
+    /* Declaration: margin: 0; */
+    margin: 0;
+
+    /* Property: padding - removes default padding */
+    /* Value: 0 - zero padding */
+    /* Declaration: padding: 0; */
+    padding: 0;
+}
+
+/* =========================
+   2. Wrapper container
+   ========================= */
+/* Selector: targets elements with class "wrapper" */
+.wrapper {
+    /* Property: max-width - limits width of content */
+    /* Value: 1200px - maximum width of 1200 pixels */
+    /* Declaration: max-width: 1200px; */
+    max-width: 1200px;
+
+    /* Property: margin - centers container horizontally */
+    /* Value: 0 auto - top/bottom 0, left/right auto */
+    /* Declaration: margin: 0 auto; */
+    margin: 0 auto;
+
+    /* Property: padding - adds spacing inside container */
+    /* Value: 1rem - 1 rem of padding */
+    /* Declaration: padding: 1rem; */
+    padding: 1rem;
+}
+
+/* =========================
+   3. Header styles
+   ========================= */
+/* Selector: targets <header> element */
+header {
+    /* Property: text-align - aligns text horizontally */
+    /* Value: center - text centered */
+    /* Declaration: text-align: center; */
+    text-align: center;
+
+    /* Property: padding - adds spacing inside header */
+    /* Value: 2rem - 2 rem padding */
+    /* Declaration: padding: 2rem; */
+    padding: 2rem;
+}
+
+/* Selector: targets <h1> inside header */
+header h1 {
+    /* Property: font-size - size of heading */
+    /* Value: 2.5rem - 2.5 times the root font size */
+    /* Declaration: font-size: 2.5rem; */
+    font-size: 2.5rem;
+
+    /* Property: margin - space around heading */
+    /* Value: 1rem 0 - 1 rem top/bottom, 0 left/right */
+    /* Declaration: margin: 1rem 0; */
+    margin: 1rem 0;
+}
+
+/* =========================
+   4. Navigation bar
+   ========================= */
+/* Selector: targets <nav> inside header */
+header nav {
+    /* Property: margin-bottom - space below nav */
+    /* Value: 1rem - 1 rem spacing */
+    /* Declaration: margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
+
+/* Selector: targets <a> elements inside nav */
+header nav a {
+    /* Property: text-decoration - removes underline */
+    /* Value: none - no underline */
+    /* Declaration: text-decoration: none; */
+    text-decoration: none;
+
+    /* Property: color - text color of links */
+    /* Value: #0077cc - blue color */
+    /* Declaration: color: #0077cc; */
+    color: #0077cc;
+
+    /* Property: margin - space between links */
+    /* Value: 0 1rem - 0 top/bottom, 1 rem left/right */
+    /* Declaration: margin: 0 1rem; */
+    margin: 0 1rem;
+}
+
+/* Property: hover effect for links */
+header nav a:hover {
+    /* Property: color - change text color on hover */
+    /* Value: #005fa3 - darker blue */
+    /* Declaration: color: #005fa3; */
+    color: #005fa3;
+}
+
+/* =========================
+   5. Section styles
+   ========================= */
+/* Selector: targets all <section> elements */
+section {
+    /* Property: padding - spacing inside sections */
+    /* Value: 2rem - 2 rem padding */
+    /* Declaration: padding: 2rem; */
+    padding: 2rem;
+
+    /* Property: background-color - background of section */
+    /* Value: #ffffff - white */
+    /* Declaration: background-color: #ffffff; */
+    background-color: #ffffff;
+
+    /* Property: margin-bottom - space below section */
+    /* Value: 1rem - 1 rem spacing */
+    /* Declaration: margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+
+    /* Property: border-radius - rounded corners */
+    /* Value: 8px - 8 pixel radius */
+    /* Declaration: border-radius: 8px; */
+    border-radius: 8px;
+
+    /* Property: box-shadow - shadow for depth */
+    /* Value: 0 2px 5px rgba(0,0,0,0.1) - subtle shadow */
+    /* Declaration: box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   6. Headings inside sections
+   ========================= */
+/* Selector: targets <h2> inside any section */
+section h2 {
+    /* Property: font-size - size of heading */
+    /* Value: 2rem - 2 times root font size */
+    /* Declaration: font-size: 2rem; */
+    font-size: 2rem;
+
+    /* Property: margin-bottom - space below heading */
+    /* Value: 1rem - 1 rem spacing */
+    /* Declaration: margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   7. Lists
+   ========================= */
+/* Selector: targets <ul> and <dl> inside sections */
+section ul, section dl {
+    /* Property: margin-left - indentation */
+    /* Value: 1.5rem - 1.5 rem from left */
+    /* Declaration: margin-left: 1.5rem; */
+    margin-left: 1.5rem;
+
+    /* Property: margin-bottom - space below list */
+    /* Value: 1rem - 1 rem spacing */
+    /* Declaration: margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
+
+/* =========================
+   8. Footer
+   ========================= */
+/* Selector: targets <footer> element */
+footer {
+    /* Property: text-align - center text */
+    /* Value: center - text centered */
+    /* Declaration: text-align: center; */
+    text-align: center;
+
+    /* Property: padding - spacing inside footer */
+    /* Value: 1rem - 1 rem padding */
+    /* Declaration: padding: 1rem; */
+    padding: 1rem;
+
+    /* Property: background-color - background of footer */
+    /* Value: #0077cc - blue */
+    /* Declaration: background-color: #0077cc; */
+    background-color: #0077cc;
+
+    /* Property: color - text color */
+    /* Value: #ffffff - white text */
+    /* Declaration: color: #ffffff; */
+    color: #ffffff;
+
+    /* Property: border-radius - rounded corners */
+    /* Value: 4px - 4 pixel radius */
+    /* Declaration: border-radius: 4px; */
+    border-radius: 4px;
+}
